@@ -56,7 +56,7 @@ These five design areas cut across the domains, offering targeted practices and 
 
 **Domain:** DevOps Agility
 
-**Categories:** Pipelines, Distributed Task Agent
+**Categories:** Pipelines, Distributed Task
 
 **Description:** Encompasses strategies and tools to enhance team efficiency and streamline workflows.
 
@@ -94,48 +94,48 @@ These five design areas cut across the domains, offering targeted practices and 
 
 ---
 
-## 3. Categories by Domain
+## 3. Categories Overview
 
-These sections list each domain along with its associated design areas, categories, and a restated description.
+Each category below is its own focus area, with its primary domain and design area.
 
-### 3.1 DevOps Agility
+## 3. Categories Overview
 
-**Domain:** DevOps Agility
+Each category below is its own focus area, with its associated design area.
 
-**Design Areas:** Productivity, Architecture
+### 3.1 Distributed Task
 
-**Categories:** Pipelines, Distributed Task Agent, Environments
+**Design Area:** Productivity
 
-**Description:** Enables rapid, reliable delivery through iterative processes, feedback loops, and adaptive planning.
+### 3.2 Environments
 
-### 3.2 Culture & People
+**Design Area:** Architecture
 
-**Domain:** Culture & People
+### 3.3 Organization
 
-**Design Areas:** Collaboration
+**Design Area:** Governance
 
-**Categories:** Repos
+### 3.4 Projects
 
-**Description:** Fosters collaboration, shared responsibility, and a growth mindset across teams and leadership.
+**Design Area:** Governance
 
-### 3.3 Automation & Tooling
+### 3.5 Repos
 
-**Domain:** Automation & Tooling
+**Design Area:** Collaboration
 
-**Design Areas:** Application Security
+### 3.6 Retention Settings
 
-**Categories:** Variable Groups, Service Connections
+**Design Area:** Governance
 
-**Description:** Leverages automation, pipelines, and integrated toolchains to enhance speed, consistency, and security.
+### 3.7 Service Connections
 
-### 3.4 Business Value
+**Design Area:** Application Security
 
-**Domain:** Business Value
+### 3.8 Variable Groups
 
-**Design Areas:** Governance
+**Design Area:** Application Security
 
-**Categories:** Organization, Projects, Retention Settings
+### 3.9 Pipelines
 
-**Description:** Aligns engineering efforts with strategic goals, measuring impact through outcome-driven metrics.
+**Design Area:** Productivity
 
 ---
