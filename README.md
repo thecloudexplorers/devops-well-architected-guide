@@ -1,3 +1,8 @@
+---
+layout: default
+title: README
+---
+
 # Devops Well-Architected Guide
 
 A community-driven, cloud-agnostic DevOps best-practices framework inspired by the concepts in the [GitHub Well-Architected](https://wellarchitected.github.com) and [LeaseWeb maturity model for DevOps](https://github.com/leaseweb/devops-maturity-model). Fully original text, diagrams and checklists, with contributions welcome under GPL v3.0 license.
