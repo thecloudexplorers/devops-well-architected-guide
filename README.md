@@ -1,3 +1,8 @@
+---
+layout: default
+title: README
+---
+
 # DevOps Well-Architected Guide
 
 This is a community-driven, technology-agnostic guide for building and maintaining high-quality DevOps practices. It is inspired by the below guides and industry best practices, and its intent is to provide a structured approach to DevOps excellence through layered architectural principles. 
