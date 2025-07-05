@@ -1,43 +1,44 @@
-# Jekyll Theme Setup Instructions
+# Hugo Theme Setup Instructions
 
-This repository is now configured with Jekyll and the Minima theme for GitHub Pages. Follow these steps to complete the setup:
+This repository is now configured with Hugo and the Ezhil theme for GitHub Pages. Follow these steps to complete the setup:
 
 ## Prerequisites
 
-1. **Ruby** (version 3.0 or higher)
-2. **Bundler** gem
-3. **Git** 
+- Hugo Extended v0.121.1 or later
+
+### Installation
+
+#### On macOS
+```bash
+brew install hugo
+```
+
+#### On Windows  
+```bash
+winget install Hugo.Hugo.Extended
+```
+
+#### On Linux
+```bash
+wget https://github.com/gohugoio/hugo/releases/download/v0.121.1/hugo_extended_0.121.1_linux-amd64.tar.gz
+tar -xzf hugo_extended_0.121.1_linux-amd64.tar.gz
+sudo mv hugo /usr/local/bin/
+```
 
 ## Local Development Setup
 
-1. **Install Ruby and Bundler** (if not already installed):
+1. **Clone the repository with submodules**:
    ```bash
-   # On Windows (using RubyInstaller)
-   # Download from: https://rubyinstaller.org/
-   
-   # On macOS (using Homebrew)
-   brew install ruby
-   
-   # On Ubuntu/Debian
-   sudo apt-get install ruby-full build-essential zlib1g-dev
+   git clone --recursive https://github.com/thecloudexplorers/devops-well-architected-guide.git
+   cd devops-well-architected-guide
    ```
 
-2. **Install Bundler**:
+2. **Start the development server**:
    ```bash
-   gem install bundler
+   hugo server
    ```
 
-3. **Install dependencies**:
-   ```bash
-   bundle install
-   ```
-
-4. **Run Jekyll locally**:
-   ```bash
-   bundle exec jekyll serve
-   ```
-   
-   Your site will be available at `http://localhost:4000`
+3. **Access the site**: Visit `http://localhost:1313/devops-well-architected-guide/`
 
 ## GitHub Pages Setup
 
@@ -46,108 +47,115 @@ This repository is now configured with Jekyll and the Minima theme for GitHub Pa
    - Scroll to "Pages" section
    - Under "Source", select "GitHub Actions"
 
-2. **Update configuration**:
-   - Edit `_config.yml`
-   - Change `baseurl` to your repository name (e.g., `/devops-well-architected-guide`)
-   - Change `url` to your GitHub Pages URL (e.g., `https://yourusername.github.io`)
+2. **Configuration is already complete**:
+   - `hugo.toml` contains the site configuration
+   - GitHub Actions workflow is configured in `.github/workflows/hugo.yml`
 
 3. **Commit and push** your changes:
    ```bash
    git add .
-   git commit -m "Add Jekyll theme and GitHub Pages setup"
+   git commit -m "Add Hugo theme and GitHub Pages setup"
    git push origin main
    ```
 
 ## Theme Customization
 
-### Available Themes
+### Current Theme
 
-The current setup uses the **Minima** theme. You can change to other GitHub-supported themes by editing `_config.yml`:
-
-```yaml
-# Popular GitHub Pages themes:
-theme: minima                    # Clean, minimal theme (current)
-theme: jekyll-theme-minimal      # Very minimal theme
-theme: jekyll-theme-cayman       # Green gradient header
-theme: jekyll-theme-architect    # Professional theme
-theme: jekyll-theme-slate        # Dark theme
-theme: jekyll-theme-modernist    # Modern, clean theme
-```
+The site uses the **Ezhil** theme, which provides:
+- Clean, minimal design
+- Responsive layout
+- Dark/light mode toggle
+- Fast loading times
 
 ### Custom Styling
 
 To customize the appearance:
 
-1. Create `_sass/minima/_custom.scss` for custom CSS
-2. Create `_layouts/` directory for custom page layouts
-3. Create `_includes/` directory for reusable components
+1. Create `layouts/` directory for custom page layouts
+2. Create `assets/` directory for custom CSS/JS
+3. Create `static/` directory for images and other assets
 
 ### Navigation
 
-The navigation is configured in `_config.yml` under `header_pages`. Add or remove pages as needed:
+The navigation is configured in `hugo.toml` under `[[menu.main]]`. Add or remove pages as needed:
 
-```yaml
-header_pages:
-  - index.md
-  - devops-well-architected-guide/design-principles.md
-  - devops-well-architected-guide/checklists.md
-  - devops-well-architected-guide/recommendations.md
-  - devops-well-architected-guide/how-to-use.md
+```toml
+[[menu.main]]
+  name = "Design Principles"
+  url = "/design-principles/"
+  weight = 2
 ```
 
 ## File Structure
 
 ```
-├── _config.yml                 # Jekyll configuration
-├── Gemfile                     # Ruby dependencies
-├── index.md                    # Home page (main guide)
-├── README.md                   # Repository description
-├── devops-well-architected-guide/
-│   ├── design-principles.md    # Design principles page
+├── hugo.toml                   # Hugo configuration
+├── content/                    # Content directory
+│   ├── _index.md              # Home page
+│   ├── design-principles.md   # Design principles page
 │   ├── checklists.md          # Checklists page
-│   ├── recommendations.md      # Recommendations page
+│   ├── recommendations.md     # Recommendations page
 │   └── how-to-use.md          # Usage guide page
-└── .github/workflows/jekyll.yml # GitHub Actions workflow
+├── themes/ezhil/              # Theme files (submodule)
+└── .github/workflows/hugo.yml # GitHub Actions workflow
 ```
 
 ## Troubleshooting
 
 ### Common Issues
 
-1. **Ruby version errors**: Ensure you're using Ruby 3.0+
-2. **Bundle install fails**: Try `bundle update` instead
+1. **Hugo version errors**: Ensure you're using Hugo Extended v0.121.1+
+2. **Theme not found**: Make sure you cloned with `--recursive` flag for submodules
 3. **GitHub Pages not building**: Check the Actions tab for error details
-4. **Theme not applying**: Ensure you've committed all files and pushed to GitHub
+4. **Theme not applying**: Ensure the theme submodule is properly initialized
 
 ### Local Development Tips
 
-- Use `bundle exec jekyll serve --livereload` for automatic page refresh
-- Add `--drafts` flag to include draft posts
-- Use `--incremental` for faster builds during development
+- Use `hugo server --buildDrafts` to include draft content
+- Use `hugo server --disableFastRender` for full rebuilds on change
+- Use `hugo --gc --minify` for production builds
 
 ## Next Steps
 
 1. **Customize the site**:
-   - Update `_config.yml` with your information
+   - Update `hugo.toml` with your information
    - Modify the theme or add custom CSS
    - Add more pages as needed
 
 2. **Set up domain** (optional):
-   - Add a `CNAME` file with your custom domain
+   - Add a `CNAME` file to the `static/` directory
    - Configure DNS settings
 
 3. **Add analytics** (optional):
-   - Add Google Analytics ID to `_config.yml`
+   - Add Google Analytics ID to `hugo.toml`
    - Configure other tracking tools
 
 4. **SEO optimization**:
-   - The site includes `jekyll-seo-tag` plugin
+   - Hugo includes built-in SEO features
    - Add meta descriptions to page front matter
    - Configure social media previews
 
 ## Resources
 
-- [Jekyll Documentation](https://jekyllrb.com/docs/)
+- [Hugo Documentation](https://gohugo.io/documentation/)
 - [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- [Minima Theme Documentation](https://github.com/jekyll/minima)
-- [Jekyll Themes](https://jekyllthemes.io/)
+- [Ezhil Theme Documentation](https://github.com/vividvilla/ezhil)
+- [Hugo Themes](https://themes.gohugo.io/)
+
+## Hugo vs Jekyll Benefits
+
+### Performance
+- **Build Time**: Hugo builds in milliseconds vs Jekyll's seconds/minutes
+- **Development**: Instant live reload with built-in server
+- **CI/CD**: Much faster deployment pipelines
+
+### Simplicity  
+- **Single Binary**: No Ruby/gem dependency management
+- **Cross-Platform**: Works consistently across all platforms
+- **Modern Tooling**: Built with Go, actively maintained
+
+### Features
+- **Built-in**: Sitemap, RSS feeds, syntax highlighting
+- **Themes**: Large ecosystem of modern themes  
+- **Flexibility**: Powerful templating and content organization

@@ -1,7 +1,8 @@
 ---
-layout: page
-title: Checklists
-nav_order: 3
+title: "Checklists"
+date: 2024-01-01T00:00:00Z
+description: "Practical evaluation tools to assess your current DevOps practices and identify areas for improvement"
+weight: 3
 ---
 
 # Checklists

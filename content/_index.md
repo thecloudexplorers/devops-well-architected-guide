@@ -1,6 +1,7 @@
 ---
-layout: default
-title: Home
+title: "DevOps Well-Architected Guide"
+date: 2024-01-01T00:00:00Z
+description: "A community-driven, technology-agnostic guide for building and maintaining high-quality DevOps practices"
 ---
 
 # DevOps Well-Architected Guide
@@ -27,10 +28,10 @@ This guide is organized into four interconnected layers:
 ## Table of Contents
 
 1. [Pillars](#1-pillars)
-2. [Design Principles](devops-well-architected-guide/design-principles/)
-3. [Checklists](devops-well-architected-guide/checklists/)
-4. [Recommendations](devops-well-architected-guide/recommendations/)
-5. [How to Use This Guide](devops-well-architected-guide/how-to-use/)
+2. [Design Principles](/design-principles/)
+3. [Checklists](/checklists/)
+4. [Recommendations](/recommendations/)
+5. [How to Use This Guide](/how-to-use/)
 
 ---
 
@@ -80,22 +81,22 @@ The foundation of this DevOps Well-Architected guide is structured around five p
 
 ### 1.5 Architecture
 
-**Definition**: Approaches for designing scalable, resilient, and efficient development environments.
+**Definition**: Guidelines for designing systems that are scalable, resilient, and maintainable.
 
 **Key Principles**:
-- Scalability and performance
-- Infrastructure resilience
-- Technology selection
-- Environment consistency
+- Scalable system design
+- Resilience and fault tolerance
+- Maintainable architecture patterns
+- Technology selection criteria
 
 ---
 
 ## Next Steps
 
-- **[Design Principles](devops-well-architected-guide/design-principles/)**: Learn specific approaches to achieve each pillar's goals
-- **[Checklists](devops-well-architected-guide/checklists/)**: Use practical evaluation tools to assess your current practices  
-- **[Recommendations](devops-well-architected-guide/recommendations/)**: Get scenario-based guidance for implementation
-- **[How to Use This Guide](devops-well-architected-guide/how-to-use/)**: Understand the layered approach and continuous improvement process
+- **[Design Principles](/design-principles/)**: Learn specific approaches to achieve each pillar's goals
+- **[Checklists](/checklists/)**: Use practical evaluation tools to assess your current practices  
+- **[Recommendations](/recommendations/)**: Get scenario-based guidance for implementation
+- **[How to Use This Guide](/how-to-use/)**: Understand the layered approach and continuous improvement process
 
 ---
 

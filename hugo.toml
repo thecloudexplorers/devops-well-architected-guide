@@ -1,0 +1,40 @@
+baseURL = 'https://thecloudexplorers.github.io/devops-well-architected-guide/'
+languageCode = 'en-us'
+title = 'DevOps Well-Architected Guide'
+theme = 'ezhil'
+
+[params]
+  description = "A community-driven, cloud-agnostic DevOps best-practices framework inspired by the concepts in the GitHub Well-Architected and LeaseWeb maturity model for DevOps."
+  author = "The Cloud Explorers"
+  subtitle = "A community-driven, technology-agnostic guide for building and maintaining high-quality DevOps practices"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Menu configuration
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Design Principles"
+  url = "/design-principles/"
+  weight = 2
+
+[[menu.main]]
+  name = "Checklists"
+  url = "/checklists/"
+  weight = 3
+
+[[menu.main]]
+  name = "Recommendations"
+  url = "/recommendations/"
+  weight = 4
+
+[[menu.main]]
+  name = "How to Use"
+  url = "/how-to-use/"
+  weight = 5

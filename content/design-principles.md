@@ -1,7 +1,8 @@
 ---
-layout: page
-title: Design Principles
-nav_order: 2
+title: "Design Principles"
+date: 2024-01-01T00:00:00Z
+description: "Specific approaches to achieve the goals of each pillar in the DevOps Well-Architected Guide"
+weight: 2
 ---
 
 # Design Principles
