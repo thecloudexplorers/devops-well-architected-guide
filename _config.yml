@@ -1,0 +1,50 @@
+# Site settings
+title: DevOps Well-Architected Guide
+description: A community-driven, technology-agnostic guide for building and maintaining high-quality DevOps practices
+baseurl: "/devops-well-architected-guide" # Change this to your repository name
+url: "https://thecloudexplorers.github.io" # Change this to your GitHub Pages URL
+
+# Theme
+theme: minima
+# Alternative themes you can use:
+# theme: jekyll-theme-minimal
+# theme: jekyll-theme-cayman
+# theme: jekyll-theme-architect
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - design-principles.md
+  - checklists.md
+  - recommendations.md
+  - how-to-use.md
+
+# Social links (optional)
+github_username: thecloudexplorers
+# twitter_username: your-twitter
+# linkedin_username: your-linkedin
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXX-X
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .git/
+  - .gitignore

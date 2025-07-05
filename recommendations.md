@@ -1,3 +1,9 @@
+---
+layout: page
+title: Recommendations
+nav_order: 4
+---
+
 # Recommendations
 
 Recommendations provide scenario-based guidance and detailed implementation advice. These are opinionated, prescriptive articles that help bridge the gap between theory and practice with real-world scenarios.

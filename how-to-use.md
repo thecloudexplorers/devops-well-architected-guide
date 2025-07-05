@@ -1,3 +1,9 @@
+---
+layout: page
+title: How to Use This Guide
+nav_order: 5
+---
+
 # How to Use This Guide
 
 ## Getting Started

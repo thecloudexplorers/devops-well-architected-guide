@@ -1,3 +1,9 @@
+---
+layout: page
+title: Checklists
+nav_order: 3
+---
+
 # Checklists
 
 Checklists provide practical evaluation tools to assess your current practices and identify areas for improvement. These serve as starting points for assessment and help translate design principles into actionable, measurable tasks.
