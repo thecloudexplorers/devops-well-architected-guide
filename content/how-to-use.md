@@ -1,7 +1,8 @@
 ---
-layout: page
-title: How to Use This Guide
-nav_order: 5
+title: "How to Use This Guide"
+date: 2024-01-01T00:00:00Z
+description: "Understand the layered approach and continuous improvement process for the DevOps Well-Architected Guide"
+weight: 5
 ---
 
 # How to Use This Guide

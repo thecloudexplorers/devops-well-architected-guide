@@ -405,9 +405,10 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-# Jekyll specific files
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-Gemfile.lock
+# Hugo specific files
+/public/
+/resources/
+.hugo_build.lock
+
+# Hugo temporary files
+hugo-temp/
