@@ -1,141 +1,116 @@
-# Devops Well-Architected Guide
+# DevOps Well-Architected Guide
 
-A community-driven, cloud-agnostic DevOps best-practices framework inspired by the concepts in the [GitHub Well-Architected](https://wellarchitected.github.com) and [LeaseWeb maturity model for DevOps](https://github.com/leaseweb/devops-maturity-model). Fully original text, diagrams and checklists, with contributions welcome under GPL v3.0 license.
+A community-driven, technology-agnostic guide for building and maintaining high-quality DevOps practices. Inspired by the below guides and industry best practices, this guide provides a structured approach to DevOps excellence through layered architectural principles. 
+
+* [GitHub Well-Architected](https://wellarchitected.github.com)
+* [Microsoft CAF DevOps considerations](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/considerations/devops-principles-and-practices) 
+* [ LeaseWeb maturity model for DevOps](https://github.com/leaseweb/devops-maturity-model)
+
+---
+
+## Guide Overview
+
+This guide is organized into four interconnected layers:
+
+- **Pillars**: Foundational principles that define quality DevOps practices
+- **Design Principles**: Specific approaches to achieve the goals of each pillar  
+- **Checklists**: Practical evaluation tools to assess current practices
+- **Recommendations**: Scenario-based guidance for implementation
 
 ---
 
 ## Table of Contents
 
-1. Domains Overview
-2. Strategic Design Areas
-3. Categories by Domain
+1. [Pillars](#1-pillars)
+2. [Design Principles](design-principles.md)
+3. [Checklists](checklists.md)
+4. [Recommendations](recommendations.md)
+5. [How to Use This Guide](how-to-use.md)
 
 ---
 
-## 1. Domains Overview
+## 1. Pillars
 
-### 1.1 Culture & People
+The foundation of this DevOps Well-Architected guide is structured around five pillars:
 
-**Domain:** Culture & People
+### 1.1 Productivity
 
-**Design Areas:** Collaboration
+**Definition**: Strategies and tools to enhance team efficiency and streamline workflows.
 
-**Description:** Fosters collaboration, shared responsibility, and a growth mindset across teams and leadership.
+**Key Principles**:
+- Automation of repetitive tasks
+- Streamlined development workflows
+- Efficient toolchain integration
+- Continuous process improvement
 
-### 1.2 DevOps Agility
+### 1.2 Collaboration
 
-**Domain:** DevOps Agility
+**Definition**: Best practices for fostering collaboration within and across teams.
 
-**Design Areas:** Productivity, Architecture
+**Key Principles**:
+- Shared ownership and responsibility
+- Cross-functional team communication
+- Knowledge sharing and documentation
+- Collaborative development practices
 
-**Description:** Enables rapid, reliable delivery through iterative processes, feedback loops, and adaptive planning.
+### 1.3 Application Security
 
-### 1.3 Business Value
+**Definition**: Guidelines for integrating security into every phase of the development process.
 
-**Domain:** Business Value
+**Key Principles**:
+- Security by design
+- Shift-left security practices
+- Continuous security monitoring
+- Compliance and risk management
 
-**Design Areas:** Governance
+### 1.4 Governance
 
-**Description:** Aligns engineering efforts with strategic goals, measuring impact through outcome-driven metrics.
+**Definition**: Principles for managing access, compliance, and governance within DevOps projects.
 
-### 1.4 Automation & Tooling
+**Key Principles**:
+- Access control and permissions
+- Policy enforcement
+- Compliance monitoring
+- Organizational standards
 
-**Domain:** Automation & Tooling
+### 1.5 Architecture
 
-**Design Areas:** Application Security
+**Definition**: Approaches for designing scalable, resilient, and efficient development environments.
 
-**Description:** Leverages automation, pipelines, and integrated toolchains to enhance speed, consistency, and security.
-
----
-
-## 2. Strategic Design Areas
-
-These five design areas cut across the domains, offering targeted practices and guidelines. Each design area contributes to strengthening one or more domains.
-
-### 2.1 Productivity
-
-**Domain:** DevOps Agility
-
-**Categories:** Pipelines, Distributed Task
-
-**Description:** Encompasses strategies and tools to enhance team efficiency and streamline workflows.
-
-### 2.2 Collaboration
-
-**Domain:** Culture & People
-
-**Categories:** Repos
-
-**Description:** Focuses on fostering teamwork and shared ownership through collaborative platforms and practices.
-
-### 2.3 Application Security
-
-**Domain:** Automation & Tooling
-
-**Categories:** Variable Groups, Service Connections
-
-**Description:** Provides guidelines for integrating security into every phase of the development lifecycle.
-
-### 2.4 Governance
-
-**Domain:** Business Value
-
-**Categories:** Organization, Projects, Retention Settings
-
-**Description:** Defines principles for access control, compliance, and organizational policies within projects.
-
-### 2.5 Architecture
-
-**Domain:** DevOps Agility
-
-**Categories:** Environments
-
-**Description:** Outlines approaches for designing scalable, resilient, and efficient platform-based development environments.
+**Key Principles**:
+- Scalability and performance
+- Infrastructure resilience
+- Technology selection
+- Environment consistency
 
 ---
 
-## 3. Categories Overview
+## Next Steps
 
-Each category below is its own focus area, with its primary domain and design area.
-
-## 3. Categories Overview
-
-Each category below is its own focus area, with its associated design area.
-
-### 3.1 Distributed Task
-
-**Design Area:** Productivity
-
-### 3.2 Environments
-
-**Design Area:** Architecture
-
-### 3.3 Organization
-
-**Design Area:** Governance
-
-### 3.4 Projects
-
-**Design Area:** Governance
-
-### 3.5 Repos
-
-**Design Area:** Collaboration
-
-### 3.6 Retention Settings
-
-**Design Area:** Governance
-
-### 3.7 Service Connections
-
-**Design Area:** Application Security
-
-### 3.8 Variable Groups
-
-**Design Area:** Application Security
-
-### 3.9 Pipelines
-
-**Design Area:** Productivity
+- **[Design Principles](design-principles.md)**: Learn specific approaches to achieve each pillar's goals
+- **[Checklists](checklists.md)**: Use practical evaluation tools to assess your current practices  
+- **[Recommendations](recommendations.md)**: Get scenario-based guidance for implementation
+- **[How to Use This Guide](how-to-use.md)**: Understand the layered approach and continuous improvement process
 
 ---
+
+## Contributing
+
+This guide is open source and community-driven. Contributions are welcome under the GPL v3.0 license. 
+
+### How to Contribute
+- Review and suggest improvements to existing content
+- Add new design principles or recommendations
+- Share real-world implementation examples
+- Submit case studies and lessons learned
+
+### Getting Started
+1. Fork this repository
+2. Create a feature branch
+3. Submit a pull request with your improvements
+
+---
+
+## License
+
+This work is licensed under GPL v3.0. See [LICENSE](LICENSE) for details.
