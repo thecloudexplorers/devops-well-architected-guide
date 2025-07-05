@@ -1,9 +1,3 @@
----
-layout: page
-title: Design Principles
-nav_order: 2
----
-
 # Design Principles
 
 Design principles provide the "how" to achieve the "what" of each pillar, guiding teams toward achieving their goals effectively. Each pillar is supported by design principles that offer targeted approaches and strategies.
