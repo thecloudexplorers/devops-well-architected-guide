@@ -24,15 +24,15 @@ This repository contains the source files for the DevOps Well-Architected Guide,
 The guide is organized into four layers:
 
 - **[Pillars](https://thecloudexplorers.github.io/devops-well-architected-guide/#1-pillars)**: Foundational principles
-- **[Design Principles](devops-well-architected-guide/design-principles.md)**: Specific approaches to achieve pillar goals
-- **[Checklists](devops-well-architected-guide/checklists.md)**: Practical evaluation tools  
-- **[Recommendations](devops-well-architected-guide/recommendations.md)**: Scenario-based implementation guidance
+- **[Design Principles](devops-well-architected-guide/design-principles/)**: Specific approaches to achieve pillar goals
+- **[Checklists](devops-well-architected-guide/checklists/)**: Practical evaluation tools  
+- **[Recommendations](devops-well-architected-guide/recommendations/)**: Scenario-based implementation guidance
 
 ## Quick Start
 
 1. **Read the Guide**: Visit the [complete guide online](https://thecloudexplorers.github.io/devops-well-architected-guide/)
-2. **Assess Your Practices**: Use our [checklists](devops-well-architected-guide/checklists.md) to evaluate your current state
-3. **Implement Improvements**: Follow the [design principles](devops-well-architected-guide/design-principles.md) and [recommendations](devops-well-architected-guide/recommendations.md)
+2. **Assess Your Practices**: Use our [checklists](devops-well-architected-guide/checklists/) to evaluate your current state
+3. **Implement Improvements**: Follow the [design principles](devops-well-architected-guide/design-principles/) and [recommendations](devops-well-architected-guide/recommendations/)
 
 ## Contributing
 
