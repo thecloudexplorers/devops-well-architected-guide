@@ -27,10 +27,10 @@ This guide is organized into four interconnected layers:
 ## Table of Contents
 
 1. [Pillars](#1-pillars)
-2. [Design Principles](devops-well-architected-guide/design-principles.md)
-3. [Checklists](devops-well-architected-guide/checklists.md)
-4. [Recommendations](devops-well-architected-guide/recommendations.md)
-5. [How to Use This Guide](devops-well-architected-guide/how-to-use.md)
+2. [Design Principles](devops-well-architected-guide/design-principles/)
+3. [Checklists](devops-well-architected-guide/checklists/)
+4. [Recommendations](devops-well-architected-guide/recommendations/)
+5. [How to Use This Guide](devops-well-architected-guide/how-to-use/)
 
 ---
 
@@ -92,10 +92,10 @@ The foundation of this DevOps Well-Architected guide is structured around five p
 
 ## Next Steps
 
-- **[Design Principles](devops-well-architected-guide/design-principles.md)**: Learn specific approaches to achieve each pillar's goals
-- **[Checklists](devops-well-architected-guide/checklists.md)**: Use practical evaluation tools to assess your current practices  
-- **[Recommendations](devops-well-architected-guide/recommendations.md)**: Get scenario-based guidance for implementation
-- **[How to Use This Guide](devops-well-architected-guide/how-to-use.md)**: Understand the layered approach and continuous improvement process
+- **[Design Principles](devops-well-architected-guide/design-principles/)**: Learn specific approaches to achieve each pillar's goals
+- **[Checklists](devops-well-architected-guide/checklists/)**: Use practical evaluation tools to assess your current practices  
+- **[Recommendations](devops-well-architected-guide/recommendations/)**: Get scenario-based guidance for implementation
+- **[How to Use This Guide](devops-well-architected-guide/how-to-use/)**: Understand the layered approach and continuous improvement process
 
 ---
 
