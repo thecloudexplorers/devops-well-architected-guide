@@ -1,6 +1,6 @@
 # DevOps Well-Architected Guide
 
-A community-driven, technology-agnostic guide for building and maintaining high-quality DevOps practices. Inspired by the below guides and industry best practices, this guide provides a structured approach to DevOps excellence through layered architectural principles. 
+This is a community-driven, technology-agnostic guide for building and maintaining high-quality DevOps practices. It is inspired by the below guides and industry best practices, and its intent is to provide a structured approach to DevOps excellence through layered architectural principles. 
 
 * [GitHub Well-Architected](https://wellarchitected.github.com)
 * [Microsoft CAF DevOps considerations](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/considerations/devops-principles-and-practices) 
