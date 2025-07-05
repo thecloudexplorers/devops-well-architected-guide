@@ -12,8 +12,8 @@ This document explains the Jekyll setup that has been configured for GitHub Page
 ### Core Jekyll Files
 - `_config.yml` - Jekyll site configuration
 - `Gemfile` - Ruby gem dependencies
-- `index.md` - Homepage content with Jekyll front matter
-- `README.md` - Updated with Jekyll front matter
+- `index.md` - Main guide homepage content with Jekyll front matter
+- `README.md` - Updated with Jekyll front matter and links to the guide
 
 ### GitHub Actions
 - `.github/workflows/jekyll.yml` - Automated build and deployment workflow
@@ -54,6 +54,7 @@ The site uses the [Minima theme](https://github.com/jekyll/minima). To customize
 
 ## Content Organization
 
-- `index.md` - Homepage
-- `README.md` - Available as `/readme/` 
-- Additional pages can be added as `.md` files in the root or in folders
+- `index.md` - Main guide homepage (root level)
+- `README.md` - Repository description with links to the guide
+- Guide sections are organized in the `devops-well-architected-guide/` directory
+- Additional pages can be added as `.md` files in the guide directory or other folders

@@ -30,6 +30,10 @@ repository: thecloudexplorers/devops-well-architected-guide
 # Navigation
 header_pages:
   - index.md
+  - devops-well-architected-guide/design-principles.md
+  - devops-well-architected-guide/checklists.md
+  - devops-well-architected-guide/recommendations.md
+  - devops-well-architected-guide/how-to-use.md
 
 # Social links (optional)
 github_username: thecloudexplorers
